@@ -4,9 +4,7 @@ import matplotlib.pyplot as plt
 import datetime
 import pandas as pd
 import numpy as np
-from pandas.io.json import json_normalize
 # URL: https://api.kraken.com/0/public/Ticker
-
 
 # Send the request to the Kraken API  
 def API_request(request):
