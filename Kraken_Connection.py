@@ -47,6 +47,7 @@ def ExtractDataFromJson(asset, interval, Date):
     price_list = []
     date_list = []
     scale = float(market_data[0][4])
+        
     for i in range (0, nb_element):
         price_list.append(float(market_data[i][4])/scale)
         date_list.append(datetime.datetime.fromtimestamp(market_data[i][0]))  
@@ -70,7 +71,7 @@ def Main():
     #Data = GetMarketData(Asset_Pair_List, "15")
     #print(Data[0])
     X_Axis = []
-    for i in range (0,len(Data[0])):
+    for i in range (0,len(data[0])):
         X_Axis.append(i)
     plt.figure()
     for i in range (0, len(data)):
@@ -79,4 +80,3 @@ def Main():
     plt.show()
     
 Main()
- 
