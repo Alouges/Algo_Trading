@@ -1,0 +1,25 @@
+---------------------------------------------------------------------------------------
+
+                                   MORPHEUS PROJECT
+                                         v0.0
+
+---------------------------------------------------------------------------------------
+
+. Command Line installation :
+
+    - Brew :
+       * https://brew.sh/
+
+. Tools :
+
+. Database :
+
+    - MongoDB :
+        > brew update
+        > brew install mongodb
+        > sudo mkdir -p /data/db
+        > sudo mongod
+        * http://api.mongodb.com/python/current/tutorial.html
+
+    - Robomongo : (helps to visualize database)
+        * https://robomongo.org/
